@@ -1,0 +1,26 @@
+AppBundle\Entity\User:
+    attributes:
+        id:
+            groups: ['user', 'film']
+        nickname:
+            groups: ['user', 'film']
+        email:
+            groups: ['user', 'film']
+        birthDate:
+            groups: ['user', 'film']
+        createdAt:
+            groups: ['user', 'film']
+        films:
+            groups: ['user']
+
+
+AppBundle\Entity\Film:
+    attributes:
+        id:
+            groups: ['user', 'film']
+        title:
+            groups: ['user', 'film']
+        poster:
+            groups: ['user', 'film']
+        user:
+            groups: ['film']

@@ -1,0 +1,19 @@
+AppBundle\Entity\User:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: email
+    properties:
+        nickname:
+            - NotBlank: ~
+            - Type: string
+        birthDate:
+            - NotBlank: ~
+        email:
+            - NotBlank: ~
+            - Email: ~
+
+AppBundle\Entity\Film:
+    properties:
+        title:
+            - NotBlank: ~
+        poster:
+            - NotBlank: ~
