@@ -1,6 +1,8 @@
 
 BlablaMovie API
 ================
+Symfony 3.4 with FOSRestBundle
+
 
 This API allows you to create a poll with the ability to create multiple users who can choose movies from omdbapi.
 the functionality of the api :
